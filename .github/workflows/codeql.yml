@@ -20,7 +20,7 @@ on:
     - cron: '34 8 * * 5'
 
 jobs:
-  analyze:
+  analyze:https://www.rewardit.com/Register?invitation=c4f2baa2-8c1e-4f2a-ba2e-bee6d076cb24&email=suppressortp@aol.com&r=13EB764A-81FA-4500-ACFB-BB2E1A81CB50&utm_source=email&utm_content=RI_In+The+Works_LC+0-30&utm_campaign=Daily+Email+Template&utm_medium=8530925
     name: Analyze
     # Runner size impacts CodeQL analysis time. To learn more, please see:
     #   - https://gh.io/recommended-hardware-resources-for-running-codeql
@@ -29,7 +29,7 @@ jobs:
     # Consider using larger runners for possible analysis time improvements.
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
-    permissions:
+    permissions: collection
       # required for all workflows
       security-events: write
 
